@@ -1,0 +1,103 @@
+div#contenu {
+	width: 840px;
+	margin: 50px auto;
+}
+
+form.formulaire p>label {
+	width: 100px;
+	display: inline-block;
+}
+
+legend {
+	padding: 0.5em;
+}
+
+form.formulaire p>label:first-child {
+	width: 250px;
+	float : left;
+}
+
+form.formulaire button.submit {
+	margin-left: 253px;
+}
+
+form.formulaire p.error label:last-of-type{
+	width: 250px;
+	background-image: url("../images/unchecked.gif");
+	background-repeat: no-repeat;
+	color: red !important ;
+	font-weight: bold;
+	padding-bottom: 2px;
+	padding-left: 16px;
+}
+
+form.formulaire label.checked {
+	background-image: url("../images/checked.gif");
+	background-repeat: no-repeat;
+	color : blue;
+	width: 250px;
+	font-weight: bold;
+	padding-bottom: 2px;
+	padding-left: 16px;	
+}
+
+legend {
+	color: #0d47a1 ;
+	padding: 0 12px;
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: 900;
+}
+
+a.tips {
+	text-decoration: none;
+}
+
+a.tips:hover {
+	cursor: help;
+}
+
+/*
+Ajout pour etape 3
+*/
+form.formulaire p {
+	clear : both;	
+}
+
+/* tooltip styling. by default the element to be styled is .tooltip  */
+.tooltip {
+	background-color:#64b5f6;
+	border:1px solid #fff;
+	padding:10px 15px;
+	width:200px;
+	display:none;
+	color:#fff;
+	text-align:left;
+	font-size:12px;
+
+	/* outline radius for mozilla/firefox only */
+	-moz-box-shadow:0 0 10px #000;
+	-webkit-box-shadow:0 0 10px #000;
+}
+
+/*
+Etape 4
+*/
+h3.ui-accordion-header {
+    border: 0 none;
+    display: none !important;
+    margin: 0;
+}
+
+label{
+		color: #0d47a1 ;
+		font-size:12px;
+		font-weight: bold;
+		
+}
+
+.formulaire fieldset {
+	background-color: #e3f2fd !important;
+	font-family: 'Karla', sans-serif;
+	border-radius: 25px;
+}
